@@ -24,4 +24,4 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.SECRET_KEY }}
           AWS_DEFAULT_REGION: "us-east-1"
         run: |
-          aws s3 cp ./github.com/DvpAKAcoder/SimpleServer s3://${{ secrets.TARGET_BUCKET }}/
+          aws s3 cp ./simpleMathServer s3://${{ secrets.TARGET_BUCKET }}/
